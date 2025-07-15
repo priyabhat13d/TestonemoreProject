@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">prv</value>
-    <value name="lastModifiedDate">1752572331667</value>
+    <value name="lastModifiedDate">1752572439567</value>
     <value name="displayName">testPrvEDGE</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -77,6 +77,9 @@
         <number name="lineNumberForDebug" type="Long">2</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0.0</value>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
       <record name="/0/1" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -98,8 +101,8 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">0.0</value>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <value name="nodePathForDebug">0.1</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
