@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/priyabhat13d
   gitUsername: priyabhat13d
   gitBranch: main
+services:
+- serviceName: project.testonemore.integrations:testPrvEDGE
+  packages:
+  - name: TestonemoreProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2040
