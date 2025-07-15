@@ -16,3 +16,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2040
+- serviceName: pub.flow:getLastFailureCaught
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2040
